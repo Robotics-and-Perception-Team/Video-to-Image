@@ -3,7 +3,7 @@ import cv2
 
 # importing os module
 import os
-cap = cv2.VideoCapture("IsraeliSoldiers.mp4")
+cap = cv2.VideoCapture("video.mp4")
 
 counter=0
 while (cap.isOpened()):
